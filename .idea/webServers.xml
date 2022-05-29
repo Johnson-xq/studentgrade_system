@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="86c5f177-9f71-49a0-b32e-08c19c2a41ad" name="studentgrade_system">
+        <fileTransfer accessType="SFTP" host="175.178.198.196" port="22" sshConfigId="e60d9475-3cd9-46ca-b279-ee3271124108" sshConfig="ubuntu@175.178.198.196:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
