@@ -42,6 +42,7 @@ public class StudentService {
     }
 
     public List<Student> query(Student student) {
+
         return studentDao.query(BeanMapUtils.beanToMap(student));
     }
 

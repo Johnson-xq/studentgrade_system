@@ -113,6 +113,7 @@ public class StudentController {
     }
 
     @GetMapping("/list")
+    @ResponseBody
     public String list(){
         return LIST;
     }

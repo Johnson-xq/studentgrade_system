@@ -41,7 +41,7 @@
             <mvc:mapping path="/**/*"/>
             <bean class="com.xiaoqiang.utils.PathInterceptor"/>
         </mvc:interceptor>
-    <!--
+
     <mvc:interceptor>
         <mvc:mapping path="/**/*"/>
         <mvc:exclude-mapping path="/login"/>
@@ -50,7 +50,7 @@
         <mvc:exclude-mapping path="/static/**"/>
         <bean class="com.xiaoqiang.utils.PermissionInterceptor"/>
     </mvc:interceptor>
-    -->
+
 </mvc:interceptors>
 
     <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">

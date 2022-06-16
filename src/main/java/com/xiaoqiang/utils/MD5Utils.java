@@ -4,7 +4,7 @@ import org.springframework.util.DigestUtils;
 
 public class MD5Utils {
 
-    //盐
+
     private static final String salt = "StudentSystemManager###$$@@";
 
     public static String getMD5(String string){
